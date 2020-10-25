@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #main{
+            width: 1000px;
+            height: 600px;
+            border: 5px solid gray;
+            background-color: gray;
+            margin: auto;
+        }
+
+        #layerleft {
+            width: 38%;
+            height: 100%;
+            background-color: white;
+            padding: 20px 10px;
+            float: left;
+        }
+
+        #img {
+            padding: 30px 20px;
+        }
+
+        #layerright {
+            width: 57%;
+            height: 100%;
+            background-color: white;
+            padding: 20px 10px;
+            float: right;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="main">
+        <div id="layerleft">
+            <h1>Tạo tài khoản</h1>
+            <p style="color: gray;">Tạo tài khoản để theo dõi đơn hàng, lưu danh sách sản phẩm yêu thích, nhận nhiều ưu đãi hấp dẫn.</p>
+            <div id="img">
+                <img src="https://frontend.tikicdn.com/_desktop-next/static/img/graphic-map.png" alt="">
+            </div>
+        </div>
+
+        <div id="layerright">
+            <div>Đăng nhập</div>
+            <div>Tạo tài khoản</div>
+
+            <form action="" name="tiki" method="POST">
+                <label for="">Họ tên</label>
+                <input type="text" name="hoten" value="" placeholder="Nhập họ và tên">
+            </form>
+        </div>
+    </div>
+
+    
+</body>
+</html>
